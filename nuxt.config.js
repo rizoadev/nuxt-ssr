@@ -52,6 +52,7 @@ export default {
         cache: false,
         sourceMap: false,
         cssSourceMap: false,
+        extractCSS: true,
         extractComments: {
             filename: 'LICENSES',
         },
