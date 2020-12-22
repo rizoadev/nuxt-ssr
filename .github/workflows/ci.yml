@@ -1,0 +1,17 @@
+# @format
+
+name: NUXT Builder
+
+on:
+    push:
+        branches: [lume-v2]
+    #pull_request:
+    #  branches: [master]
+
+jobs:
+    nuxt_ssr:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Build NUXTSSR
+              run: ./build.sh

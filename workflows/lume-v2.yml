@@ -1,0 +1,17 @@
+# @format
+
+name: Lume v2 Build
+
+on:
+  push:
+    branches: [lume-v2]
+  #pull_request:
+  #  branches: [master]
+
+jobs:
+  build_landing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build Lume.co.id
+        run: ./build.sh landing lume
