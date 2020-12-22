@@ -4,7 +4,7 @@ name: NUXT Builder
 
 on:
     push:
-        branches: [lume-v2]
+        branches: [master]
     #pull_request:
     #  branches: [master]
 
