@@ -31,9 +31,9 @@ export default {
         const res = reactive({
             crot: () => {
                 require('consola').info('crooot')
-            },
+            }
         })
         return { res }
-    },
+    }
 }
 </script>

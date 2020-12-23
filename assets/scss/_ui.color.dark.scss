@@ -1,0 +1,120 @@
+/*
+Dark theme
+*/
+$txtclr: #d8d9da;
+
+.bg-dark {
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    h5,
+    .h5,
+    h6,
+    .h6,
+    .text-dark,
+    .text-color,
+    table,
+    .btn-white,
+    .card,
+    .block,
+    .list-group,
+    .ui-switch i:before,
+    .table-theme tbody td {
+        color: $txtclr;
+        :hover {
+            color: #fff;
+        }
+    }
+    .table-hover tr:hover {
+        color: #fff;
+    }
+    color: $txtclr;
+
+    .form-control {
+        background-color: #0b0c0e;
+        border: solid 1px #2c3235;
+    }
+    .page-sidenav {
+        background: #141619;
+    }
+    .page-sidenav a,
+    .b-sidebar-header {
+        color: $txtclr;
+    }
+    .b-sidebar-header svg {
+        fill: $txtclr;
+    }
+    .input-group-btn {
+        .btn {
+            background-color: $border-color-lt;
+        }
+    }
+    .mainbox,
+    .table-theme tbody td {
+        background: #0b0c0e;
+    }
+    .bg-white,
+    .bg-body {
+        background: $dark !important;
+    }
+    .bg-light,
+    .btn-secondary,
+    .btn-white,
+    .btn-light,
+    .badge-secondary {
+        background: #202226;
+        border: solid 1px #202226;
+        color: $txtclr;
+    }
+
+    .table-theme tbody td {
+        box-shadow: none !important;
+        border-bottom: solid 1px #202226;
+    }
+    .btn:not([class*='btn-']),
+    .btn.btn-icon.no-bg {
+        color: inherit;
+    }
+    .input-group-btn {
+        .btn {
+            background-color: $border-color-lt;
+        }
+    }
+    .card-header,
+    .card-footer,
+    .b-a,
+    .b-l,
+    .b-r,
+    .b-t,
+    .b-b {
+        border-color: solid 1px #202226;
+    }
+    .dropdown-divider {
+        border-color: solid 1px #202226;
+    }
+
+    .card,
+    .dropdown-menu {
+        background: #141619;
+        border: solid 1px #202226;
+
+        a {
+            color: $txtclr;
+        }
+    }
+    .modal-content {
+        border: solid 1px #202226;
+        background: #141619;
+    }
+    .upldy {
+        border: dashed 1px #333;
+    }
+    .upldi {
+        border-right: dashed 1px #333;
+    }
+}

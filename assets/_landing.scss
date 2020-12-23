@@ -1,0 +1,203 @@
+/**
+navbar
+**/
+.nvb {
+    background: #f1ceaa;
+}
+.lnk {
+    font-size: 16px;
+    font-family: nunito;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 0.7rem 1rem 0 1rem;
+    color: #5d4b31;
+}
+.lnk:hover {
+    color: #5d4b31;
+    text-decoration: none;
+}
+
+@include media-breakpoint-down(xs) {
+    .lnk {
+        padding: 0.4rem 1rem 0 1rem;
+        font-size: 14px;
+    }
+}
+
+/**
+hero
+**/
+.stbody {
+    margin-top: 160px;
+    position: relative;
+    z-index: 14;
+}
+.sect1 {
+    position: relative;
+}
+.scvd {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 628px;
+    overflow: hidden;
+    z-index: 8;
+}
+.sctv {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img/lumemobile.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.sctl {
+    height: 628px;
+    position: relative;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.sctd {
+    text-align: right;
+    align-items: center !important;
+    height: 628px;
+    padding: 0;
+    margin: 0;
+}
+.flxhero {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 12;
+    margin-top: -100px;
+}
+.hd1 {
+    font-size: 24px;
+    color: #fff;
+    line-height: 28px;
+}
+.hd2 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 28px;
+}
+.lgl {
+    padding-bottom: 1rem;
+}
+.flxhbg {
+    max-width: 1080px;
+}
+.ut1 {
+    margin-top: -14px;
+}
+@include media-breakpoint-up(lg) {
+    .highlight {
+        height: 400px;
+    }
+    .flxhbg {
+        width: 100%;
+        opacity: 0.99;
+        top: 0;
+        z-index: 13;
+        overflow: hidden;
+        height: 1000px;
+        position: absolute;
+        background: url('/img/herobg.webp') 0 0 no-repeat;
+    }
+    .lgl {
+        margin-left: 380px;
+    }
+}
+@include media-breakpoint-up(md) {
+    .sctv {
+        position: relative;
+        z-index: 9;
+        width: 100%;
+        top: 0;
+        height: 628px;
+        border-color: rgba(181, 116, 116, 0.68);
+        border-width: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-image: unset;
+        background-color: rgba(74, 55, 36, 0.78);
+        background-size: cover;
+    }
+}
+@include media-breakpoint-down(lg) {
+    .flxhbg {
+        max-width: 1080px;
+        overflow: hidden;
+    }
+}
+@include media-breakpoint-down(md) {
+    .flxhbg {
+        width: 100%;
+        opacity: 0.99;
+        top: 0;
+        z-index: 13;
+        overflow: hidden;
+        height: 1000px;
+        position: absolute;
+        background: url('/img/herobg.webp') -50px 0 no-repeat;
+    }
+    .lgl {
+        margin-left: 320px;
+    }
+    .ut1 {
+        margin-top: -30px;
+    }
+}
+@include media-breakpoint-down(sm) {
+    .sctd {
+        text-align: left;
+        align-items: flex-end !important;
+        height: calc(100vh - 30px);
+    }
+    .flxhero {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 100vh;
+        z-index: 12;
+        margin-top: 0;
+    }
+    .hd1 {
+        padding-top: 1rem;
+        font-size: 24px;
+        color: #4c351e;
+        line-height: 28px;
+    }
+    .hd2 {
+        font-size: 18px;
+        color: #4c351e;
+        line-height: 28px;
+    }
+    .lgl {
+        margin-left: 0;
+    }
+    .stbody {
+        margin-top: 100vh;
+        position: relative;
+        z-index: 14;
+    }
+    .ut1 {
+        margin-top: 0;
+    }
+}
+
+// complexion
+@include media-breakpoint-down(sm) {
+    .col-sm-4 {
+        width: 40%;
+    }
+    .col-sm-8 {
+        width: 60%;
+    }
+}
