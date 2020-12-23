@@ -25,6 +25,7 @@
             Bundling
             Map
             Konverzi
+            AgenList
             ListAgen
             LiputanMedia
             Pertanyaan
@@ -54,6 +55,7 @@ import ListAgen from '~/components/landingpage/19.listagen'
 import LiputanMedia from '~/components/landingpage/20.media'
 import Pertanyaan from '~/components/landingpage/21.pertanyaan'
 import Footer from '~/components/landingpage/22.footer'
+import AgenList from '~/components/agen/AgenList'
 
 export default {
     components: {
@@ -79,7 +81,8 @@ export default {
         ListAgen,
         LiputanMedia,
         Pertanyaan,
-        Footer
+        Footer,
+        AgenList
     },
     setup() {},
     head: {
