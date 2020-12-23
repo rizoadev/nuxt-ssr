@@ -12,6 +12,13 @@
             Highlight
             Complexion
             VideoFoundation
+            Keunggulan
+            Describe
+            Testimony
+            TestimonyImg
+            Kandungan
+            Behind
+            ForYou
 </template>
 <script>
 import Navbar from '~/components/landingpage/00.navbar'
@@ -20,6 +27,13 @@ import HeroText from '~/components/landingpage/02.herotext'
 import Highlight from '~/components/landingpage/03.highlight'
 import Complexion from '~/components/landingpage/04.complexion'
 import VideoFoundation from '~/components/landingpage/05.videofoundation'
+import Keunggulan from '~/components/landingpage/06.keunggulan'
+import Describe from '~/components/landingpage/07.describe'
+import Testimony from '~/components/landingpage/08.testimony'
+import TestimonyImg from '~/components/landingpage/09.testimony_img'
+import Kandungan from '~/components/landingpage/10.kandungan'
+import Behind from '~/components/landingpage/11.behind'
+import ForYou from '~/components/landingpage/12.foryou'
 
 export default {
     components: {
@@ -28,7 +42,14 @@ export default {
         HeroText,
         Highlight,
         Complexion,
-        VideoFoundation
+        VideoFoundation,
+        Keunggulan,
+        Describe,
+        Testimony,
+        TestimonyImg,
+        Kandungan,
+        Behind,
+        ForYou
     },
     setup() {},
     head: {

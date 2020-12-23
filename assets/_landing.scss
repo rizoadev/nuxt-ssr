@@ -200,4 +200,17 @@ hero
     .col-sm-8 {
         width: 60%;
     }
+    .col-sm-6 {
+        width: 50%;
+    }
+}
+
+// keunggulan
+.cxs {
+    height: 80px;
+}
+@include media-breakpoint-down(sm) {
+    .cxs {
+        height: 70px;
+    }
 }
