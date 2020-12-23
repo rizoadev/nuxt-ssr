@@ -184,21 +184,6 @@
                                         i.mdi.mdi-whatsapp.mdi-18px
                                         .pt-1.pl-2 BELI DISINI
 
-                            // .flex.d-flex.mt-2
-                                .flex.d-flex.justify-content-center.py-1(
-                                    style='background:#faf0e4'
-                                )
-                                    i.mdi.mdi-whatsapp.mdi-24px(
-                                        style='color:#4c351e'
-                                    )
-
-                                    b-link(
-                                        :href='"https://api.whatsapp.com/send?phone=" + a.whatsapp + "&text="',
-                                        target='_blank'
-                                    )
-                                        .pt-1.pl-2(
-                                            style='color:#4c351e;font-size:16px;font-weight:400;margin-top:2px'
-                                        ) HUBUNGI AGEN
         .flex.text-center.pt-4
             p(style='font-size: 18px') Jika Anda tidak menemukan kota Anda, lakukan pembelian di Lumecolors Pusat
         .flex.d-flex.justify-content-center.pb-3
@@ -251,19 +236,19 @@
                                     target='_blank',
                                     style='border: solid 1px #ff4c3b; background: #ff4c3b; color: #fff; font-size: 1rem; font-weight: 700'
                                 ) Beli di Shopee
-    WaModalAgen
+    // WaModalAgen
 </template>
 <script>
 import { reactive, useContext, useFetch } from '@nuxtjs/composition-api'
-import ReactPixel from 'react-facebook-pixel'
-import WaModalAgen from './WaModalAgen'
+// import ReactPixel from 'react-facebook-pixel'
+// import WaModalAgen from './WaModalAgen'
 
 export default {
     components: {
-        WaModalAgen
+        // WaModalAgen
     },
     setup(props, context) {
-        const { $cfg, $axios, store } = useContext()
+        const { $axios, store } = useContext()
         const res = reactive({
             provs: [],
             kab: [],
@@ -297,6 +282,7 @@ export default {
                 })
             },
             beli: (data) => {
+                /*
                 ReactPixel.init(
                     $cfg.pixel,
                     {},
@@ -311,7 +297,9 @@ export default {
                     // value: 0.5,
                     // currency: 'USD',
                 })
+                */
 
+                /*
                 window.open(
                     'https://api.whatsapp.com/send?phone=' +
                         data.whatsapp +
@@ -319,6 +307,7 @@ export default {
                         data.whatsapp_text,
                     '_blank'
                 )
+                */
                 // context.root.$bvModal.show('WaModalAgen')
                 store.commit('landing/list/SET', {
                     k: 'wa_cs',
@@ -332,6 +321,7 @@ export default {
         })
 
         useFetch(() => {
+            require('consola').info('cek akgen')
             $axios.get('v1/future/agenaktif').then((r) => {
                 r.data.results.map((r) => {
                     r.show = false

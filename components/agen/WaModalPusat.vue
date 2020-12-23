@@ -18,7 +18,7 @@ b-modal#WAPusat.modal-scrollable(size='md', centered, title='BootstrapVue')
 </template>
 <script>
 import { computed, reactive, useContext } from '@nuxtjs/composition-api'
-import ReactPixel from 'react-facebook-pixel'
+// import ReactPixel from 'react-facebook-pixel'
 import AgenWAFormLokasi from './AgenWAFormLokasi'
 
 export default {
@@ -26,7 +26,7 @@ export default {
         AgenWAFormLokasi
     },
     setup(props, context) {
-        const { store, $cfg } = useContext()
+        const { store } = useContext()
         const res = reactive({
             wa_cs: computed(() => store.state.landing.list.wa_cs),
             wa_buyer: computed(() => store.state.landing.list.wa_buyer),
@@ -36,6 +36,7 @@ export default {
             )
         })
         const hubCS = () => {
+            /*
             ReactPixel.init($cfg.pixel, {}, { debug: true, autoConfig: false })
             ReactPixel.track('Lead', {
                 phone: res.wa_buyer
@@ -46,9 +47,10 @@ export default {
                 // value: 0.5,
                 // currency: 'USD',
             })
-
+        */
             // kirim
             store.dispatch('landing/list/sendWA', res.wa_alamat)
+            /*
             window.open(
                 'https://api.whatsapp.com/send?phone=' +
                     res.wa_cs +
@@ -56,6 +58,7 @@ export default {
                     res.wa_msg,
                 '_blank'
             )
+            */
         }
         return { hubCS }
     }
