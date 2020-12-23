@@ -4,15 +4,12 @@
         .flex.pt-3
             .flex
                 .flex.d-flex.justify-content-center
-                    h1.lume-dark(style='font-size: 2.1rem') Special Price Bundling
+                    h1.lume-dark(style='font-size: 1.8rem') Special Price Bundling
             .flex
                 .row
-                    .col-lg-6.col-md-6.col-sm-6
+                    .col-lg-6.col-md-6.col-sm-12
                         .my-3.text-center.sxdt
-                            img.sxdd(
-                                height='200',
-                                src='https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/f09ee9dfe974df9510a951954f35e4c430678f8c/bundling1.png?auto=format&q=70&fit=scale&w=429&h=418s'
-                            )
+                            img.sxdd(height='200', src='/img/bundling1.webp')
                             h2.lume-dark Special Bundling 1
                             .pt-1 1 pcs Foundation lumecolors
                             .pt-1 1 pcs Beauty Blender lume
@@ -29,7 +26,7 @@
                                                 s 318rb
                                     b-button.btp(
                                         href='/#agenlist',
-                                        variant='primary'
+                                        variant='white'
                                     )
                                         .btnprc.d-flex
                                             .text-sm.pt-2 Rp
@@ -37,18 +34,15 @@
                             .flex.pt-3
                                 b-button.btp(
                                     href='/#agenlist',
-                                    variant='primary',
+                                    variant='white',
                                     size='sm',
                                     style='font-size: 18px; background: #bfa793; border: solid 1px #bfa793'
                                 )
                                     .btnprc.d-flex.px-3 hemat 20rb!
 
-                    .col-lg-6.col-md-6.col-sm-6
+                    .col-lg-6.col-md-6.col-sm-12
                         .my-3.text-center.sxdt
-                            img.sxdd(
-                                height='200',
-                                src='https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/5aae6fb0fe1d30449ff67bf210036f94cb0a4581/bundling2.png?auto=format&q=70&fit=scale&w=576&h=440'
-                            )
+                            img.sxdd(height='200', src='/img/bundling2.webp')
                             h2.lume-dark Special Bundling 2
                             .pt-1 2 pcs Foundation lumecolors
                             .pt-1 2 pcs Beauty Blender lume
@@ -65,7 +59,7 @@
                                                 s 639rb
                                     b-button.btp(
                                         href='/#agenlist',
-                                        variant='primary'
+                                        variant='white'
                                     )
                                         .btnprc.d-flex
                                             .text-sm.pt-2 Rp
@@ -73,7 +67,7 @@
                             .flex.pt-3
                                 b-button.btp(
                                     href='/#agenlist',
-                                    variant='primary',
+                                    variant='white',
                                     size='sm',
                                     style='font-size: 18px; background: #bfa793; border: solid 1px #bfa793'
                                 )

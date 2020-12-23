@@ -4,18 +4,12 @@
         .flex.d-none.d-sm-block
             .row
                 .col-lg-6.col-md-4.col-sm-6
-                    img(
-                        width='100%',
-                        height='auto',
-                        src='https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/8784299bff1a38fdcabe5fd4c882c97b8ffef615/cl.jpg?auto=format&fit=scale&w=605&h=806'
-                    )
+                    img(width='100%', height='auto', src='/img/cl.webp')
                 .col-lg-6.col-md-8.col-sm-6
                     .py-5
                         .flex
                             h2(style='color: #f7ece1; font-weight: 700') Cerita Dibalik lumecolors
-                            img(
-                                src='https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/756161a3f9c875482fce76ec3d0caa56d6ebf942/divider.png?auto=compress,format&fit=scale&w=51&h=4'
-                            )
+                            img(src='/img/divider.webp')
                         .flex.text-white.pt-3(style='font-size: 16px')
                             p.py-3 Christina Lie yang saat ini dikenal sebagai Youtuber dan juga business woman, membuat brand Lumecolors berawal dari kesulitannya mencari produk lipcream yang cocok. Sudah banyak produk / brand lipcream yang Christina coba, namun tidak banyak produk yang dapat memberikan kenyamanan dan kepuasan tersendiri. Percobaannya tidak hanya dilihat dari kualitas lipstiknya saja, tapi dari segi kecocokan warna dan juga kenyamanan Ketika digunakan.
                             p.py-3 Kesulitan ini selanjutnya dijadikan peluang oleh Christina untuk membangun sebuah brand yang mengerti jenis kulit orang Indonesia dan disesuaikan dengan iklim dan cuaca yang ada di Indonesia.
@@ -23,17 +17,11 @@
         .d-sm-none
             .row
                 .col-lg-6.col-md-4.col-sm-6
-                    img(
-                        width='100%',
-                        height='auto',
-                        src='https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/8784299bff1a38fdcabe5fd4c882c97b8ffef615/cl.jpg?auto=format&fit=scale&w=605&h=806'
-                    )
+                    img(width='100%', height='auto', src='/img/cl.webp')
                 .col-lg-6.col-md-4.col-sm-6
                     .py-5
                         h2(style='color: #f7ece1; font-weight: 700') Cerita Dibalik lumecolors
-                        img(
-                            src='https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/756161a3f9c875482fce76ec3d0caa56d6ebf942/divider.png?auto=compress,format&fit=scale&w=51&h=4'
-                        )
+                            img(src='/img/divider.webp')
             .row
                 .col-sm-12
                     .flex.text-white.pt-2(style='font-size: 14px')

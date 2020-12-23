@@ -101,36 +101,31 @@ export default {
             data: [
                 {
                     id: 'c1',
-                    img:
-                        'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/30115eebbfa68a420c1a799354cf1005aff9ca7f/why01.jpg?auto=compress,format&fit=scale&w=280&h=144',
+                    img: '/img/why01.webp',
                     text:
                         'Formula Foundation yang melekat sempurna dan minim transfer ke masker wajah meskipun dipakai berjam-jam.'
                 },
                 {
                     id: 'c2',
-                    img:
-                        'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/6c656284ac775369767a97f97fb063684b0bde5a/why02.jpg?auto=compress,format&fit=scale&w=280&h=144',
+                    img: '/img/why02.webp',
                     text:
                         'Full Coverage yang mampu menyamarkan noda hingga 90%.'
                 },
                 {
                     id: 'c3',
-                    img:
-                        'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/b9e5cb4be522ee2434538c2777e05f9e945307fe/why03.jpg?auto=compress,format&fit=scale&w=280&h=144',
+                    img: '/img/why03.webp',
                     text:
                         'Hasil halus, tidak pecah, dan natural alami bercahaya.'
                 },
                 {
                     id: 'c4',
-                    img:
-                        'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/20fd17dd71a1585e229c8913782163f7fc7bd409/why04.jpg?auto=compress,format&fit=scale&w=280&h=144',
+                    img: '/img/why04.webp',
                     text:
                         'Wajah tetap nyaman dengan kandungan anti aging, vitamin E, moisturizer, brightening yang menjadikan kulit wajahmu tetap terasa lembab dan kenyal.'
                 },
                 {
                     id: 'c5',
-                    img:
-                        'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/2dfed1198914c415fe378b426aca6e8b353f7354/why05.jpg?auto=compress,format&fit=scale&w=280&h=144',
+                    img: '/img/why05.webp',
                     text:
                         'Menginginkan warna yang cocok di kulit wajahmu, karena Lumecolors foundation memiliki formula true match yang membuat warna makin menyatu dengan warna kulit setelah 3 menit pemakaian.'
                 }

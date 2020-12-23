@@ -1,7 +1,7 @@
 <template lang="pug">
 .flex.sect6
     .prlx.d-none.d-sm-block(
-        style='height: 100%; background-image: url(https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/dce4e96cd682e10ad1a64b846a554f3ce892de64/bgtemp.jpg?auto=compress,format&fit=clip&w=1600)'
+        style='height: 100%; background-image: url(/img/bgtemp.webp)'
     )
         .container
             .d-flex.align-content-center.flex-column(

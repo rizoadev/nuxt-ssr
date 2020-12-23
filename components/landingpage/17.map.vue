@@ -29,7 +29,7 @@
                                 img(
                                     width='100%',
                                     height='auto',
-                                    src='https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/9cd4f30e7898944fafd4df9f26ab0cf900efd7ac/map.jpg?auto=compress,format&fit=scale&w=960&h=326'
+                                    src='/img/map.webp'
                                 )
                             .flex.d-flex.justify-content-center.xsd
                                 .flex

@@ -62,19 +62,16 @@ export default {
                     title: 'Light',
                     desc:
                         'Untuk warna kulit wajah putih oriental hingga kuning muda hangat',
-                    img:
-                        'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/6d567c69d5621b79be67461b7c571ea67dedcffb/light.jpg?auto=compress,format&fit=scale&w=300&h=300',
+                    img: '/img/light.webp',
                     videos: [
                         {
                             id: 'a1v1',
-                            img:
-                                'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/146b0a6fe0297429cfaf0a3763f1ff34314cddb8/Silvia.jpg?auto=compress,format&fit=scale&w=300&h=300',
+                            img: '/img/Silvia.webp',
                             yid: 'oMf9WVgUYOc'
                         },
                         {
                             id: 'a1v2',
-                            img:
-                                'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/23d71817c118783a273f4230dc5995bdb386f810/Novie.jpg?auto=compress,format&fit=scale&w=300&h=300',
+                            img: '/img/Novie.webp',
                             yid: 'gzKPWe4wFl8'
                         }
                     ]
@@ -84,25 +81,21 @@ export default {
                     title: 'Neutral',
                     desc:
                         'Untuk kuning langsat hingga medium dengan undertone kuning dan netral',
-                    img:
-                        'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/5d29a7cbdadf64a8a865e3929eba3631e2317d3c/neutral.jpg?auto=compress,format&fit=scale&w=300&h=300',
+                    img: '/img/neutral.webp',
                     videos: [
                         {
                             id: 'a2v1',
-                            img:
-                                'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/896cf06a8eed996125e8305a4f82918131e775c3/Jepu.jpg?auto=compress,format&fit=scale&w=300&h=300',
+                            img: '/img/Jepu.webp',
                             yid: 'zH71CAy3_ng'
                         },
                         {
                             id: 'a2v2',
-                            img:
-                                'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/fab079460fa17c011645278409fa4ad8cd8fd3ea/Megan.jpg?auto=compress,format&fit=scale&w=300&h=300',
+                            img: '/img/Megan.webp',
                             yid: 'Rp8HDX9dJOE'
                         },
                         {
                             id: 'a2v3',
-                            img:
-                                'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/73d6a68e62914c82199b4f9e3b43e0c5a25519ec/Hanin.jpg?auto=compress,format&fit=scale&w=300&h=300',
+                            img: '/img/Hanin.webp',
                             yid: '6yCQ6rMPFcQ'
                         }
                     ]
@@ -113,25 +106,21 @@ export default {
                     title: 'Sand',
                     desc:
                         'Untuk kamu yang memiliki kulit wajah sawo matang hingga gelap exotis  ',
-                    img:
-                        'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/ff93d7014fc7147717647354b36ab121155a56e5/sand.jpg?auto=compress,format&fit=scale&w=300&h=300',
+                    img: '/img/sand.webp',
                     videos: [
                         {
                             id: 'a3v1',
-                            img:
-                                'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/9519ea4ce3d1c19610778523443b2af2c3fb161d/Mutiara.jpg?auto=compress,format&fit=scale&w=300&h=300',
+                            img: '/img/Mutiara.webp',
                             yid: 'XbSqT989OaI'
                         },
                         {
                             id: 'a3v2',
-                            img:
-                                'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/fa7d07fd8f95e79a1408c7db68de9e6b64d00bf7/Meli.jpg?auto=compress,format&fit=scale&w=300&h=300',
+                            img: '/img/Meli.webp',
                             yid: 'LXvRGWTapKU'
                         },
                         {
                             id: 'a3v3',
-                            img:
-                                'https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/e7e4db564217162fd8807842a2a25270cda242ac/Silvi.jpg?auto=compress,format&fit=scale&w=300&h=300',
+                            img: '/img/Silvi.webp',
                             yid: 'K9pu-y0ri2Q'
                         }
                     ]

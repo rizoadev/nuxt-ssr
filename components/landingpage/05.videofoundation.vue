@@ -2,9 +2,6 @@
 .flex.sect2
     .flex
         .prlx.fndsn(style='background-image: url(/img/foundationbg.webp)')
-            // .fndsn(
-            //    style='background-image: url(https://convertri.imgix.net/beef2fa8-e111-11ea-abef-0697e5ca793e/1a08a9176b01b922f0b894afbc5f674922de4558/4.jpg?auto=compress,format&fit=clip&w=1600)'
-            //)
             .container
                 .invide(style='max-width: 650px; margin: 0 auto')
                     b-embed(
