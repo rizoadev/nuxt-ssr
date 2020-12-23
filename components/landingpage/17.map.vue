@@ -1,6 +1,6 @@
 <template lang="pug">
 .flex.sect2.flex-grow(style='background: #ead7c9')
-    .container
+    .container.pb-4
         .d-flex.align-content-center.flex-column
             .flex
                 .p-lg-4.p-md-4

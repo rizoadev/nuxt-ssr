@@ -18,6 +18,7 @@
                                 b-button-group
                                     b-button.btpo(
                                         href='/#agenlist',
+                                        v-scroll-to='"#agenlist"',
                                         style='background: #ead7c9'
                                     )
                                         .btnprc.d-flex
@@ -26,6 +27,7 @@
                                                 s 318rb
                                     b-button.btp(
                                         href='/#agenlist',
+                                        v-scroll-to='"#agenlist"',
                                         variant='white'
                                     )
                                         .btnprc.d-flex
@@ -34,6 +36,7 @@
                             .flex.pt-3
                                 b-button.btp(
                                     href='/#agenlist',
+                                    v-scroll-to='"#agenlist"',
                                     variant='white',
                                     size='sm',
                                     style='font-size: 18px; background: #bfa793; border: solid 1px #bfa793'
@@ -51,6 +54,7 @@
                                 b-button-group
                                     b-button.btpo(
                                         href='/#agenlist',
+                                        v-scroll-to='"#agenlist"',
                                         style='background: #ead7c9'
                                     )
                                         .btnprc.d-flex
@@ -59,6 +63,7 @@
                                                 s 639rb
                                     b-button.btp(
                                         href='/#agenlist',
+                                        v-scroll-to='"#agenlist"',
                                         variant='white'
                                     )
                                         .btnprc.d-flex
@@ -67,6 +72,7 @@
                             .flex.pt-3
                                 b-button.btp(
                                     href='/#agenlist',
+                                    v-scroll-to='"#agenlist"',
                                     variant='white',
                                     size='sm',
                                     style='font-size: 18px; background: #bfa793; border: solid 1px #bfa793'
