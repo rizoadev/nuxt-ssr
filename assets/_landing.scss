@@ -214,3 +214,61 @@ hero
         height: 70px;
     }
 }
+
+// video thb
+.sxd {
+    width: 100%;
+}
+.bcx {
+    border-radius: 10px;
+    cursor: pointer;
+    width: 128px;
+}
+
+@include media-breakpoint-down(sm) {
+    .bcx {
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;
+    }
+}
+
+// bundling
+.sxdd {
+    height: 200px;
+}
+.sxdt h2 {
+    font-size: 2.1rem;
+    font-weight: normal;
+}
+.btnprc {
+    font-size: 24px;
+}
+.btp {
+    color: #fcf5ee;
+    border: solid 1px #805e3b;
+    background: #805e3b;
+}
+.btpo {
+    color: #805e3b;
+    border: solid 1px #805e3b;
+    background: #fcf5ee;
+}
+@include media-breakpoint-down(sm) {
+    .sxdd {
+        height: 100px;
+    }
+    .sxdt h2 {
+        font-size: 1.4rem;
+        font-weight: normal;
+    }
+    .btnprc {
+        font-size: 16px;
+    }
+}
+
+// map
+a.abtn,
+a.abtn:hover {
+    text-decoration: none;
+}

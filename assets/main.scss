@@ -56,4 +56,8 @@ h5 {
     background-size: cover;
 }
 
+a,
+a:hover {
+    text-decoration: none;
+}
 @import './landing';

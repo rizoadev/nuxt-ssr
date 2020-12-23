@@ -19,6 +19,16 @@
             Kandungan
             Behind
             ForYou
+            Shade
+            Packages
+            VideoTest
+            Bundling
+            Map
+            Konverzi
+            ListAgen
+            LiputanMedia
+            Pertanyaan
+            Footer
 </template>
 <script>
 import Navbar from '~/components/landingpage/00.navbar'
@@ -34,6 +44,16 @@ import TestimonyImg from '~/components/landingpage/09.testimony_img'
 import Kandungan from '~/components/landingpage/10.kandungan'
 import Behind from '~/components/landingpage/11.behind'
 import ForYou from '~/components/landingpage/12.foryou'
+import Shade from '~/components/landingpage/13.shade'
+import Packages from '~/components/landingpage/14.packages'
+import VideoTest from '~/components/landingpage/15.videotest'
+import Bundling from '~/components/landingpage/16.bundling'
+import Map from '~/components/landingpage/17.map'
+import Konverzi from '~/components/landingpage/18.konverzi'
+import ListAgen from '~/components/landingpage/19.listagen'
+import LiputanMedia from '~/components/landingpage/20.media'
+import Pertanyaan from '~/components/landingpage/21.pertanyaan'
+import Footer from '~/components/landingpage/22.footer'
 
 export default {
     components: {
@@ -49,7 +69,17 @@ export default {
         TestimonyImg,
         Kandungan,
         Behind,
-        ForYou
+        ForYou,
+        Shade,
+        Packages,
+        VideoTest,
+        Bundling,
+        Map,
+        Konverzi,
+        ListAgen,
+        LiputanMedia,
+        Pertanyaan,
+        Footer
     },
     setup() {},
     head: {
