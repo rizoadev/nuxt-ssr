@@ -29,7 +29,8 @@
                                 img(
                                     width='100%',
                                     height='auto',
-                                    src='/img/map.webp'
+                                    data-src='/img/map.webp'
+                                    v-lazy-load
                                 )
                             .flex.d-flex.justify-content-center.xsd
                                 .flex
@@ -45,9 +46,9 @@
                                         | bahkan GRATIS!
                                     p.text-center
                                         | Sebagian besar para Agen menerima COD dan pengiriman via driver online
-                                        br 
+                                        br
                                         | (Gojek, Grab)
-                            .flex.d-flex.justify-content-center.py-2.mt-3 
+                            .flex.d-flex.justify-content-center.py-2.mt-3
                                 a.abtn(
                                     href='/#agenlist',
                                     v-scroll-to='"#agenlist"'

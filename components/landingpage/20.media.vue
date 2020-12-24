@@ -7,11 +7,11 @@
                 .col-lg-6.col-md-6.col-sm-6
                     .card
                         .p-3
-                            img(width='100%', src='/img/news1.png')
+                            img(width='100%', data-src='/img/news1.png' v-lazy-load)
                 .col-lg-6.col-md-6.col-sm-6
                     .card
                         .p-3
-                            img(width='100%', src='/img/news2.png')
+                            img(width='100%', data-src='/img/news2.png' v-lazy-load)
 </template>
 <script>
 export default {

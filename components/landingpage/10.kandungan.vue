@@ -20,10 +20,10 @@
                             .col-lg-7.pt-3(:class='{ "order-2": index % 2 }')
                                 .flex
                                     h4 {{ c.title }}
-                                .flex 
+                                .flex
                                     p.py-2.textc {{ c.text }}
                                 .flex
-                                    img(src='/img/divider.webp')
+                                    img(data-src='/img/divider.webp' v-lazy-load)
     .prlx.d-sm-none(
         style='height: 100%; background-image: url(/img/lumecolorsbg2.webp)'
     )
@@ -44,10 +44,10 @@
                             .col-lg-7.pt-3(:class='{ "order-2": index % 2 }')
                                 .flex
                                     h4 {{ c.title }}
-                                .flex 
+                                .flex
                                     p.py-2.textc {{ c.text }}
                                 .flex
-                                    img(src='/img/divider.webp')
+                                    img(data-src='/img/divider.webp' v-lazy-load)
 </template>
 <script>
 import { reactive } from '@nuxtjs/composition-api'

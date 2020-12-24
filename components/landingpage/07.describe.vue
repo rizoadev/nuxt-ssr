@@ -13,8 +13,8 @@
                             .flex
                                 h1.onsml {{ c.title }}
                             .flex
-                                img(src='/img/divider.webp')
-                            .flex 
+                                img(data-src='/img/divider.webp' v-lazy-load)
+                            .flex
                                 p.pt-3.pb-lg-5.pb-sm-2.dscx {{ c.desc }}
                         .col-lg-5.py-3(:class='{ "order-1": index % 2 }')
 </template>

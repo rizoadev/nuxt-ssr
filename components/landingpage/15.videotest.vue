@@ -17,22 +17,26 @@
                         .row
                             .col-lg-6
                                 .my-3
-                                    b-embed(
-                                        type='iframe',
-                                        aspect='4by3',
-                                        src='https://youtube.com/embed/X6GZy4CnLIY?rel=0',
-                                        allowfullscreen,
-                                        poster='https://vercelcdn.s3.us-west-001.backblazeb2.com/files/cbd7e0b8fdabb471c858ff442df995c6'
-                                    )
+                                    youtube(video-id="X6GZy4CnLIY")
+                                    //
+                                      b-embed(
+                                          type='iframe',
+                                          aspect='4by3',
+                                          src='https://youtube.com/embed/X6GZy4CnLIY?rel=0',
+                                          allowfullscreen,
+                                          poster='https://vercelcdn.s3.us-west-001.backblazeb2.com/files/cbd7e0b8fdabb471c858ff442df995c6'
+                                      )
                             .col-lg-6
                                 .my-3
-                                    b-embed(
-                                        type='iframe',
-                                        aspect='4by3',
-                                        src='https://youtube.com/embed/NkU4Jxs3j1c?rel=0',
-                                        allowfullscreen,
-                                        poster='https://vercelcdn.s3.us-west-001.backblazeb2.com/files/cbd7e0b8fdabb471c858ff442df995c6'
-                                    )
+                                    youtube(video-id="NkU4Jxs3j1c")
+                                    //
+                                      b-embed(
+                                          type='iframe',
+                                          aspect='4by3',
+                                          src='https://youtube.com/embed/NkU4Jxs3j1c?rel=0',
+                                          allowfullscreen,
+                                          poster='https://vercelcdn.s3.us-west-001.backblazeb2.com/files/cbd7e0b8fdabb471c858ff442df995c6'
+                                      )
 </template>
 <script>
 export default {

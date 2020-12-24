@@ -21,7 +21,10 @@ export default {
     css: ['@assets/main.scss', '@assets/landing.styl'],
 
     // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-    plugins: [{ src: '~/plugins/bootstrap' }],
+    plugins: [
+      { src: '~/plugins/bootstrap' },
+      { src: '~/plugins/youtube', ssr: false }
+    ],
 
     // Auto import components (https://go.nuxtjs.dev/config-components)
     components: true,
@@ -41,7 +44,8 @@ export default {
         '@nuxtjs/axios',
         // https://go.nuxtjs.dev/pwa
         '@nuxtjs/pwa',
-        ['vue-scrollto/nuxt', { duration: 1000 }]
+        ['vue-scrollto/nuxt', { duration: 1000 }],
+        'nuxt-lazy-load'
     ],
 
     // Axios module configuration (https://go.nuxtjs.dev/config-axios)

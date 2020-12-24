@@ -39,12 +39,14 @@
         centered,
         body-class='vidx'
     )
-        b-embed(
-            type='iframe',
-            aspect='16by9',
-            :src='"https://youtube.com/embed/" + res.vd + "?rel=0"',
-            allowfullscreen
-        )
+        youtube(:video-id="res.vd")
+        //
+          b-embed(
+              type='iframe',
+              aspect='16by9',
+              :src='"https://youtube.com/embed/" + res.vd + "?rel=0"',
+              allowfullscreen
+          )
 </template>
 <script>
 import { reactive } from '@nuxtjs/composition-api'

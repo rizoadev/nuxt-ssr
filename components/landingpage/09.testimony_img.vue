@@ -17,7 +17,8 @@
                     )
                         .mx-2.p-2(v-for='c in res.data', :key='c._id')
                             img(
-                                :src='c',
+                                :data-src='c',
+                                v-lazy-load,
                                 height='300px',
                                 width='100%',
                                 style='border: solid 1px #f1ceaa'
@@ -30,7 +31,8 @@
                         template(v-slot:default='{ item }')
                             .item.mx-2.my-2
                                 img(
-                                    :src='item.replace("w=400&h=680", "w=250&h=450")'
+                                    :data-src='item.replace("w=400&h=680", "w=250&h=450")',
+                                    v-lazy-load
                                 )
             // on small
             .flex.d-flex.justify-content-center.py-4

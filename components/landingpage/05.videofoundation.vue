@@ -4,12 +4,13 @@
         .prlx.fndsn(style='background-image: url(/img/foundationbg.webp)')
             .container
                 .invide(style='max-width: 650px; margin: 0 auto')
-                    b-embed(
-                        type='iframe',
-                        aspect='4by3',
-                        src='https://youtube.com/embed/X6GZy4CnLIY?rel=0',
-                        allowfullscreen
-                    )
+                    youtube(video-id="X6GZy4CnLIY")
+                    // b-embed(
+                          type='iframe',
+                          aspect='4by3',
+                          src='https://youtube.com/embed/X6GZy4CnLIY?rel=0',
+                          allowfullscreen
+                      )
 </template>
 <script>
 export default {

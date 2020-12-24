@@ -10,7 +10,8 @@
                         img(
                             width='100%',
                             height='auto',
-                            src='/img/lumeblender.webp'
+                            data-src='/img/lumeblender.webp'
+                            v-lazy-load
                         )
                     .col-lg-6.col-md-8.col-sm-8
                         .py-5.flex.justify-content-start
@@ -40,7 +41,8 @@
                         img(
                             width='100%',
                             height='auto',
-                            src='/img/lumeblender.webp'
+                            data-src='/img/lumeblender.webp'
+                            v-lazy-load
                         )
                     .col-lg-6.col-md-8.col-sm-8
                         .py-5.flex.d-flex.justify-content-start

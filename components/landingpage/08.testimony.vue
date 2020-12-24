@@ -17,11 +17,13 @@
                 )
                     .flex
                         .p-2
-                            img(
-                                width='100%',
-                                :src='c.img',
-                                style='border-radius: 15px; border: solid 2px #fff'
-                            )
+                            img(:data-src="c.img" alt="" title="" v-lazy-load width="100%" style='border-radius: 15px; border: solid 2px #fff')
+                            //
+                              img(
+                                  width='100%',
+                                  :src='c.img',
+                                  style='border-radius: 15px; border: solid 2px #fff'
+                              )
 
         b-modal#modalvideo.modal-scrollable(
             centered,
@@ -31,14 +33,16 @@
         )
             template(#modal-title, style='background: #f1ceaa')
             .flex
-                iframe(
-                    width='100%',
-                    height='300',
-                    :src='"https://www.youtube.com/embed/" + res.video',
-                    frameborder='0',
-                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
-                    allowfullscreen
-                )
+                youtube(:video-id="res.video")
+                //
+                  iframe(
+                      width='100%',
+                      height='300',
+                      :src='"https://www.youtube.com/embed/" + res.video',
+                      frameborder='0',
+                      allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
+                      allowfullscreen
+                  )
 </template>
 <script>
 import { reactive } from '@nuxtjs/composition-api'

@@ -22,6 +22,8 @@ section#header
                 .col-lg-12
                     p BootstrapVue
                     p This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+
+                    youtube(video-id="YdNqJT9Yz58")
 </template>
 
 <script>
